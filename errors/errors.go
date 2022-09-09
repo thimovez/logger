@@ -8,16 +8,16 @@ import (
 )
 
 //LogInfo represent the log of the error
-func logInfo(message string) {
+func LogInfo(message string) {
 	log.Printf("INFO - %v", message)
 }
 
 //logWarning represent the log of the warning
-func logWarning(message string) {
+func LogWarning(message string) {
 	log.Printf("WARN - %v", message)
 }
 
 //logError represent the log of the error
-func logError(message string) {
+func LogError(message string) {
 	log.Printf("ERROR - %v", message)
 }
